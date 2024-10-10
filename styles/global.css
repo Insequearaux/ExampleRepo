@@ -1,0 +1,30 @@
+#grow:hover{
+    transform: scale(1.2);
+
+}
+h1{
+    font-weight: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    border:3px solid black;
+    border-radius: 15px;
+    text-shadow:0 0 5px black;
+    text-align: center;
+    animation:pulse alternate 1s infinite linear;
+}
+
+@keyframes pulse {
+      0% {transform:scalex(1)}
+      50% {transform:scalex(1.7)}
+      100% {transform:scalex(1)}
+    }
+
+@keyframes dance{
+    0% {transform: rotateZ(10deg)}
+  100% {transform: rotateZ(-10deg)}
+  
+  }
+  
+*{
+    transition:all .2s ease-in-out;
+}
