@@ -1,7 +1,10 @@
 p:hover{
     transform: scale(1.2);
-}
 
+}
+p{
+    color:yellowgreen;
+}
 *{
     transition:ease-in;
 }
